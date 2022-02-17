@@ -1,0 +1,239 @@
+@import "global.css";
+
+.carte_proiduits {
+  padding: 10px 10px 10px;
+}
+
+.text_categorie h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.buttons_right a {
+  display: none;
+}
+
+.buttons_right {
+  display: flex;
+  margin-left: 0;
+}
+
+.acces {
+  margin-left: 10px;
+}
+
+.logo_bsystem {
+  padding-left: 10px;
+  margin-left: 60px;
+}
+.accueil {
+  display: flex;
+  margin: 20px 20px 20px 10px;
+}
+.home {
+  text-decoration: none;
+  margin-right: 10px;
+  color: rgb(8, 138, 245);
+  font-weight: 600;
+}
+.catego {
+  text-decoration: none;
+  margin-right: 10px;
+  color: black;
+  font-weight: 600;
+}
+.fleche {
+  margin-right: 10px;
+  color: rgb(8, 138, 245);
+}
+.containaire_footer_icons a {
+  color: black;
+}
+.fab {
+  font-size: 35px;
+}
+.containaire_footer_icons {
+  padding: 16px;
+  padding-bottom: 40px;
+  padding-top: 20px;
+  background-color: white;
+  box-shadow: 0 2px 1px rgba(46, 45, 45, 0.3);
+  justify-content: center;
+  letter-spacing: 1rem;
+}
+.moreproduits button {
+  margin-top: 100px;
+}
+.moreproduits {
+  text-align: center;
+}
+
+.moreproduits button {
+  cursor: grab;
+  border-radius: 3px;
+  background-color: white;
+  font-size: 100%;
+  font-weight: 600;
+  padding: 15px 50px;
+  margin: 50px;
+  border: 1px solid rgb(182, 181, 181);
+}
+.logo_bsystem_end {
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+  padding-bottom: 1rem;
+}
+
+.restart_pasword {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+.test p {
+  text-align: -webkit-center;
+  padding-inline-start: 20px;
+}
+
+
+/* Mettre sur Deux Colone  */
+@media (min-width: 390px) {
+  .carte_proiduits {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    padding: 10px 50px 10px;
+  }
+
+  .buttons_right {
+    display: flex;
+    gap: 10px;
+  }
+
+  .icon_left {
+    display: flex;
+
+    gap: 10px;
+  }
+
+  header {
+    padding: 20px;
+  }
+
+  .menu_button {
+    color: black;
+    font-weight: bold;
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 10px 20px;
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    justify-content: center;
+    font-size: medium;
+    gap: 15px;
+    border: 2px solid gainsboro;
+  }
+  .logo_bsystem {
+    padding-left: 0px;
+    margin-left: 0px;
+  }
+  footer {
+    display: flex;
+    width: 100%;
+  }
+  .containaire_footer_icons {
+    padding: 100px;
+    background-color: white;
+    box-shadow: 0 2px 1px rgba(46, 45, 45, 0.3);
+    justify-content: center;
+    letter-spacing: 1rem;
+  }
+  .accueil {
+    display: flex;
+    margin: 20px 20px 24px 50px;
+  }
+}
+
+/* Mettre sur Trois Colone */
+@media (min-width: 700px) {
+  .carte_proiduits {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 60px;
+    padding: 10px 170px 10px;
+  }
+
+  .buttons_right a {
+    display: flex;
+  }
+  .buttons_right {
+    padding: 5px 0;
+  }
+  .acces {
+    display: flex;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 5px;
+    padding: 6px 20px;
+    margin-right: 10px;
+  }
+
+  .acces a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    margin: 10px;
+  }
+
+  .acces svg {
+    padding: 5px;
+  }
+  .logo_bsystem {
+    padding-left: 0px;
+    margin-left: 0px;
+  }
+  .accueil {
+    margin: 50px 60px 50px 170px;
+  }
+
+  .catego {
+    text-decoration: none;
+    margin-right: 10px;
+    color: rgb(8, 138, 245);
+    font-weight: 600;
+  }
+  .containaire_footer_icons {
+    padding: 100px;
+    background-color: white;
+
+    justify-content: center;
+    letter-spacing: 1rem;
+    box-shadow: 0 2px 3px rgba(46, 45, 45, 0.3);
+  }
+
+  footer {
+    display: flex;
+    width: 100%;
+  }
+  .moreproduits button {
+    margin-top: 100px;
+  }
+  .moreproduits {
+    text-align: center;
+  }
+
+  .moreproduits button {
+    cursor: grab;
+    border-radius: 3px;
+    background-color: white;
+    font-size: 100%;
+    font-weight: 600;
+    padding: 15px 50px;
+    margin: 50px;
+    border: 1px solid rgb(182, 181, 181);
+  }
+}

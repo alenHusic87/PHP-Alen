@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+header {
+  display: flex;
+  width: 100%;
+}
+header {
+  display: flex;
+  padding: 20px 0;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+
+  box-shadow: 0 2px 3px rgba(224, 221, 221, 0.3);
+  width: 100%;
+}
+.text_categorie h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.carte_proiduit:hover {
+  transform: scale(1.1);
+}
+.test p {
+  display: flex;
+  justify-content: center;
+  color: gray;
+}
+h2:before{
+  content: attr(data-count);
+    color: white;
+    position: absolute;
+    right: 40px;
+    font-size: 15px;
+    text-align: center;
+    top: 45px;
+    width: 20px;
+    height: 20px;
+    background: red;
+    border-radius: 50%;
+    opacity: 0;
+}
+h2.zero:before{
+  opacity: 1;
+}
+
+
+/* atribue quande on click sur la icon SHOP*/
+.select{
+  width: 60%;
+  height: 580px;
+  padding: 5%;
+  background: blanchedalmond;
+
+  position: absolute;
+  top: -1000px;
+  left: 20%;
+  transition: 0.5s;
+  overflow-y: auto;
+  margin: auto;
+}
+.select.display{
+  top: 10px;
+}
+.select div{
+  width: 100%;
+  height: 200px;
+  display: flex;
+  padding: 5px;
+  border: 1px solid white;
+  margin: 5px auto;
+}
+
+
+
+.select div img{
+  max-width: 100%;
+}
+.select div p{
+  padding: 35px;
+}
+.select div h1{
+  display: flex;
+  justify-content: center;
+  padding-left: 10px;
+}
+
+.select div button{
+  display: flex;
+  justify-content: center;
+  max-width: 25%;
+  
+
+}
+.select div p{
+  padding: 10px;;
+}
+.select div button{
+  left: 60%;
+  top: 55%;
+}
+.select div span{
+  display: none;
+}
+
+.zoomIcon{
+  
+  font-size:20px;
+  color:#2196F3"
+}
